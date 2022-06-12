@@ -14,14 +14,14 @@ function onSubmitForm(event) {
     createPromise(position, delay)
       .then(({ position, delay }) => {
         setTimeout(() => {
-          Notify.success(`Fulfilled promise ${position} in ${delay}ms ✅`, {
+          Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`, {
             useIcon: false,
           });
         }, delay);
       })
       .catch(({ position, delay }) => {
         setTimeout(() => {
-          Notify.failure(`Rejected promise ${position} in ${delay}ms ❌`, {
+          Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`, {
             useIcon: false,
           });
         }, delay);
