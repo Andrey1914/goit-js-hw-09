@@ -1,0 +1,76 @@
+body {
+  background-image: url('../../images/workplace-2303851_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+@media all and (min-width: 768px) {
+  .section {
+    padding: 25px 0;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .section {
+    padding: 100px 0;
+  }
+}
+
+.container {
+  width: calc(100% - 30px);
+  margin: 0 auto;
+}
+
+@media all and (min-width: 768px) {
+  .container {
+    width: calc(100% - 150px);
+  }
+}
+
+.link {
+  color: #000;
+  font-size: 24px;
+}
+
+@media all and (min-width: 768px) {
+  .link {
+    font-size: 28px;
+  }
+}
+
+@media all and (min-width: 1536px) {
+  .link {
+    font-size: 32px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .list {
+    padding: 0 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .list {
+    display: flex;
+    gap: 80px;
+    padding: 0 40px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .timer-link {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .promises-link {
+    text-align: right;
+  }
+}

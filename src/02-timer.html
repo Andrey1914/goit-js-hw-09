@@ -6,32 +6,60 @@
     <title>Countdown timer</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="./css/timer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Oswald:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
+    <header class="section">
+      <div class="container">
+        <a class="link" href="index.html"
+          ><span class="material-symbols-outlined"> arrow_back </span></a
+        >
+      </div>
+    </header>
 
-    <input type="text" id="datetime-picker" />
-    <button type="button" data-start>Start</button>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="wrap">
+            <div class="datetime-wrap">
+              <input class="datetime" type="text" id="datetime-picker" />
+              <button class="btn" type="button" data-start>Start</button>
+            </div>
 
-    <div class="timer">
-      <div class="field">
-        <span class="value" data-days>00</span>
-        <span class="label">Days</span>
-      </div>
-      <div class="field">
-        <span class="value" data-hours>00</span>
-        <span class="label">Hours</span>
-      </div>
-      <div class="field">
-        <span class="value" data-minutes>00</span>
-        <span class="label">Minutes</span>
-      </div>
-      <div class="field">
-        <span class="value" data-seconds>00</span>
-        <span class="label">Seconds</span>
-      </div>
-    </div>
-
+            <div class="timer">
+              <div class="field">
+                <span class="value" data-days>00</span>
+                <span class="label">Days</span>
+              </div>
+              <div class="field">
+                <span class="value" data-hours>00</span>
+                <span class="label">Hours</span>
+              </div>
+              <div class="field">
+                <span class="value" data-minutes>00</span>
+                <span class="label">Minutes</span>
+              </div>
+              <div class="field">
+                <span class="value" data-seconds>00</span>
+                <span class="label">Seconds</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <p class="text">To use the timer, select the date and time.</p>
+        </div>
+      </section>
+    </main>
     <script src="js/02-timer.js" type="module"></script>
   </body>
 </html>
