@@ -1,10 +1,14 @@
+.material-symbols-outlined {
+  color: #f1b4bb;
+}
+
 .section__form {
-  background-color: #ddf2fd;
+  background-color: #fdf0f0;
 }
 
 .title {
   font-family: 'Oswald';
-  color: #164863;
+  color: #1f4172;
   text-align: center;
 }
 
@@ -20,8 +24,8 @@
   padding: 10px;
   margin-top: 30px;
   border: none;
-  background: #427d9d;
-  color: #ddf2fd;
+  background: #f1b4bb;
+  color: #fdf0f0;
 }
 
 @media all and (min-width: 768px) {
@@ -64,15 +68,15 @@
 }
 
 .form-label {
-  color: #164863;
+  color: #1f4172;
   font-family: 'Cinzel';
 }
 
 .form-input {
   font-family: 'Oswald';
 
-  color: #164863;
-  outline-color: #427d9d;
+  color: #1f4172;
+  outline-color: #f1b4bb;
   padding: 10px;
   border: none;
 }
