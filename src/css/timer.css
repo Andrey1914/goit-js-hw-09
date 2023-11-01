@@ -6,7 +6,6 @@ body {
 }
 
 button:disabled {
-  /* background-color: #e4e4e4; */
   background-color: transparent;
 }
 
@@ -14,10 +13,6 @@ button:hover,
 button:focus {
   background-color: rgb(11, 134, 242);
   border: 2px solid rgb(4, 102, 187);
-}
-
-.wrap {
-  padding-right: 100px;
 }
 
 @media all and (min-width: 1536px) {
@@ -47,6 +42,7 @@ button:focus {
   padding: 0 10px 0 10px;
   background-color: transparent;
   border: none;
+  color: #fff;
 }
 
 @media all and (min-width: 1536px) {
@@ -62,6 +58,7 @@ button:focus {
   box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
   padding: 5px 15px;
   background-color: rgb(0, 96, 181);
+  color: #fff;
   border: none;
   cursor: pointer;
 }
@@ -89,6 +86,7 @@ button:focus {
 .value {
   font-weight: 700;
   font-size: 40px;
+  color: #fff;
 }
 
 @media all and (min-width: 1536px) {
@@ -100,7 +98,7 @@ button:focus {
 .label {
   font-weight: 500;
   font-size: 16px;
-  color: #000;
+  color: #fff;
 }
 
 @media all and (min-width: 1536px) {
