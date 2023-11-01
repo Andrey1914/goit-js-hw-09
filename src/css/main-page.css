@@ -6,7 +6,7 @@ body {
 }
 
 .section {
-  padding: 40px 0;
+  padding: 30px 0 0 0;
 }
 
 @media all and (min-width: 768px) {
@@ -33,7 +33,7 @@ body {
 }
 
 .link {
-  color: #000;
+  color: #005bda;
   font-size: 24px;
 }
 
@@ -47,6 +47,12 @@ body {
   .link {
     font-size: 32px;
   }
+}
+
+.description {
+  font-family: 'Cinzel';
+  font-size: 14px;
+  font-weight: 500;
 }
 
 @media all and (min-width: 768px) {

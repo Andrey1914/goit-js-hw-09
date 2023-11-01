@@ -20,7 +20,8 @@ img {
 
 ul,
 a,
-p {
+p,
+h1 {
   list-style: none;
   text-decoration: none;
   padding: 0;
