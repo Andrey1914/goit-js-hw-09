@@ -12,7 +12,6 @@ button:disabled {
 button:hover,
 button:focus {
   background-color: rgb(11, 134, 242);
-  border: 2px solid rgb(4, 102, 187);
 }
 
 @media all and (min-width: 1536px) {
