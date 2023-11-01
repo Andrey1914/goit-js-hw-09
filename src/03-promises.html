@@ -3,27 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Promise generator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Oswald:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/promises.css" />
   </head>
   <body>
-    <p><a href="index.html">Go back</a></p>
-
-    <form class="form">
-      <label>
-        First delay (ms)
-        <input type="number" name="delay" required />
-      </label>
-      <label>
-        Delay step (ms)
-        <input type="number" name="step" required />
-      </label>
-      <label>
-        Amount
-        <input type="number" name="amount" required />
-      </label>
-      <button type="submit">Create promises</button>
-    </form>
+    <header class="section">
+      <div class="container">
+        <a class="link" href="index.html"
+          ><span class="material-symbols-outlined"> arrow_back </span></a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="section section__form">
+        <div class="container">
+          <h1 class="title">Promise generator</h1>
+          <form class="form">
+            <div class="form-element">
+              <label class="form-label" for="delay"> First delay (ms) </label>
+              <input
+                class="form-input"
+                type="number"
+                name="delay"
+                id="delay"
+                required
+              />
+            </div>
+            <div class="form-element">
+              <label class="form-label" for="step"> Delay step (ms) </label>
+              <input
+                class="form-input"
+                type="number"
+                name="step"
+                id="step"
+                required
+              />
+            </div>
+            <div class="form-element">
+              <label class="form-label" for="amount"> Amount </label>
+              <input
+                class="form-input"
+                type="number"
+                name="amount"
+                id="amount"
+                required
+              />
+            </div>
+            <button class="button" type="submit">Create promises</button>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <script src="js/03-promises.js" type="module"></script>
   </body>

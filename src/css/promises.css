@@ -1,0 +1,83 @@
+.section__form {
+  background-color: #ddf2fd;
+}
+
+.title {
+  font-family: 'Oswald';
+  color: #164863;
+  text-align: center;
+}
+
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+}
+
+.button {
+  font-family: 'Cinzel';
+  font-weight: 500;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  background: #427d9d;
+  color: #ddf2fd;
+}
+
+@media all and (min-width: 768px) {
+  .button {
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+
+.form {
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media all and (min-width: 768px) {
+  .form {
+    padding: 30px 100px;
+  }
+}
+
+@media all and (min-width: 1536px) {
+  .form {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media all and (min-width: 768px) {
+  .form-element {
+    font-size: 18px;
+  }
+}
+
+.form-label {
+  color: #164863;
+  font-family: 'Cinzel';
+}
+
+.form-input {
+  font-family: 'Oswald';
+  color: #164863;
+  outline-color: #427d9d;
+  padding: 10px;
+  border: none;
+}
+
+@media all and (min-width: 768px) {
+  .form-input {
+    padding: 20px;
+  }
+}
